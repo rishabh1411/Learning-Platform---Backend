@@ -1,0 +1,40 @@
+{
+  "name": "learning-platform",
+  "version": "1.0.0",
+  "description": "Social network platform for learning ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index",
+    "server": "nodemon index",
+    "migrate": "node database/migrations.js",
+    "debug": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabh1411/Learning-Platform---Backend.git"
+  },
+  "author": "Rishabh Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabh1411/Learning-Platform---Backend/issues"
+  },
+  "homepage": "https://github.com/rishabh1411/Learning-Platform---Backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "db-migrate": "^0.11.9",
+    "db-migrate-mysql": "^2.1.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "github:felixge/node-mysql",
+    "nodemon": "^2.0.2",
+    "pg": "^7.17.0",
+    "pino": "^6.2.0",
+    "postgrator": "^3.11.0",
+    "request": "^2.88.0",
+    "util": "^0.12.2"
+  }
+}

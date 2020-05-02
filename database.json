@@ -1,0 +1,20 @@
+{
+  "defaultEnv": "local",
+  "local": {
+    "host": "localhost",
+    "user": "root",
+    "password" : "password",
+    "database": "mydb",
+    "driver": "mysql",
+    "multipleStatements": true
+  },
+  "test": {
+    "driver": "mysql",
+    "filename": ":memory:"
+  },
+  "prod": {
+    "driver": "mysql",
+    "user": "root",
+    "password": "root"
+  }
+}
