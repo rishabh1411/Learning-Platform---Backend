@@ -40,8 +40,9 @@ function getClient () {
   // console.log(db)
   // console.log(db.MySqlConnection.dbConfig)
   if(!pool){
+    console.log('cvasdcas')
     pool = mysql.createConnection(db)
-      console.log('create new pool')
+    console.log('create new pool')
     pool.connect()
     pool.on('error', poolError)
   }
